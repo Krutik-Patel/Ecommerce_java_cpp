@@ -15,6 +15,8 @@ public class SellerXYZ extends Seller {
 
     public SellerXYZ(String id) {
         super(id);
+        mobileList = new ArrayList<>();
+        bookList = new ArrayList<>();
     }
 
     public void addPlatform(Platform thePlatform) {
